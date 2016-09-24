@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import butterknife.BindColor;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     EditText etNama;
     @BindView(R.id.textViewHasil)
     TextView tvHasil;
-    @BindView(R.id.colorAccent)
+    @BindColor(R.id.colorAccent)
     int colorAccent;
 
     @Override
