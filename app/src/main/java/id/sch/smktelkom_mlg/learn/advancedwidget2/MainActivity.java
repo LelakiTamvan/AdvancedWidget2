@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     EditText etNama;
     @BindView(R.id.textViewHasil)
     TextView tvHasil;
-    @BindColor(R.id.colorAccent)
+    @BindColor(R.color.colorAccent)
     int colorAccent;
 
     @Override
